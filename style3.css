@@ -1,16 +1,17 @@
-th {
-	border: solid;
-	padding: 20px;
-	background: yellow;
-
-}
-td 	{
-	border: solid;
-	padding: 40px;
-	background: lightblue;
+h1 {
+  padding: 10px auto;
+  font-family: helvetica;
+  color: darkblue;
+  width: 400px;
+  margin-bottom: 40px;
 }
 
-h1.date{
-	position: relative;
-	left: 350px;
+a[href$=".html"] {
+  font-family: Garamond;
+  font-size: 20px;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: skyblue;
+  margin: 5px auto;
 }
