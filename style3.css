@@ -1,0 +1,16 @@
+th {
+	border: solid;
+	padding: 20px;
+	background: yellow;
+
+}
+td 	{
+	border: solid;
+	padding: 40px;
+	background: lightblue;
+}
+
+h1.date{
+	position: relative;
+	left: 350px;
+}
