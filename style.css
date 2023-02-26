@@ -7,6 +7,17 @@ universal = * */
 /* practice using id */
 
 }
+
+a{
+  color: #466995;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:visited{
+  color: #FFB6C1;
+}
+
 #large-underline {
   text-transform: uppercase;
   text-decoration: underline;
