@@ -6,12 +6,4 @@ h1 {
   margin-bottom: 40px;
 
 }
-a[href$=".html"] {
-  font-family: Garamond;
-  font-size: 20px;
-  border: solid;
-  border-radius: 10px;
-  padding: 10px;
-  background-color: skyblue;
-  margin: 5px auto;
-}
+
