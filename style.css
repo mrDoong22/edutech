@@ -1,0 +1,88 @@
+/* 
+While classes are meant to be used many times, an ID is meant to style only one element. 
+*/
+/* use # for ID selectors, and . for class selectors, and type is just like (e.g. h1, p) 
+the more specific the selector the more priority it gets (most to least specific = ID, class, type)
+universal = * */
+/* practice using id */
+
+}
+#large-underline {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+/* alignment */
+h1 {
+  padding: 10px;
+}
+
+.table {
+  color: saddlebrown;
+}
+
+/* font */
+h1, h2, h3 {
+  font-family: Garamond;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  width: 700px;
+  align-content: center;
+  text-decoration: underline;
+}
+p {
+  font-family: Helvetica;
+  font-size: 14px;
+  padding: 3px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/*color, also this is a "selector- class"*/
+
+.this {
+  color: saddlebrown;
+}
+
+h3 {
+  color: midnightblue;
+}
+
+a[href="https://www.bridges.mathlearningcenter.org"]{
+  padding: 100px;
+}
+
+a[href="https://www.nextgenscience.org/"]{
+  padding: 100px;
+}
+
+p:hover {
+  background-color: palegreen;
+}
+
+/* image */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 10px;
+  position: relative;
+  top: 25px;
+}
+
+/* borders */
+h2{
+  border: 1px dotted brown;
+}
+
+video {
+  position: relative;
+  left: 400px;
+
+}
+
+main {
+  height: 1000px;
+  overflow: scroll;
+}
+
