@@ -14,3 +14,8 @@
   transition: background-color .15s, font-size .15s;
   font-size: 15x;
 }
+
+.flat:active{
+	background-color: skyblue;
+	color: skyblue;
+}
