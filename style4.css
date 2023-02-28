@@ -6,8 +6,8 @@
 	border-radius: 10px;
 	border: 2px solid lightblue;
 	font-size: 20px;
+	box-shadow: 0px 4px;
 }
-
 
 .flat:hover {
   background-color: skyblue;
@@ -15,7 +15,7 @@
   font-size: 15x;
 }
 
-.flat:active{
+.flat:active {
 	background-color: skyblue;
 	color: skyblue;
 }
