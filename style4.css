@@ -4,8 +4,7 @@
 	color: white;
 	font-family: helvetica;
 	border-radius: 10px;
-	border: 2px solid lightblue;
-	font-size: 20px;
+	border: 1px solid #466995;	font-size: 20px;
 	box-shadow: 0px 4px;
 }
 
@@ -16,6 +15,6 @@
 }
 
 .flat:active {
-	background-color: skyblue;
+	background-color: #C0D6DF;
 	color: #ffffff;
 }
