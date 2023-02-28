@@ -18,3 +18,20 @@
 	background-color: #C0D6DF;
 	color: white;
 }
+
+.breadcrumb > li {
+  display:inline;
+}
+
+.breadcrumb li+li::before {
+	padding: 10px;
+  content: ">"
+}
+
+.breadcrumb a {
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: red;
+}
