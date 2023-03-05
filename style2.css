@@ -1,33 +1,30 @@
-th {
-	border: solid;
-	padding: 20px;
-	background: yellow;
-
-}
-td 	{
-	border: solid;
-	padding: 40px;
-	background: lightblue;
-}
-
-h1.date{
-	position: relative;
-	left: 350px;
+.grid {
+  border: 2px lightyellow solid;
+  height: 410px;
+  width: 550px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  grid-gap: 10px 15px;
+  margin-left: 300px;
+  padding: 10px 10px;
 }
 
-.breadcrumb > li {
-  display:inline;
+.box {
+  background-color: beige;
+  color: black;
+  border-radius: 5px;
+  border: 2px blue; solid;
+  text-align: center;
+  padding-top: 80px;
 }
 
-.breadcrumb li+li::before {
-	padding: 10px;
-  content: ">"
+img {
+  padding-left: 390px;
+  padding-top: 50px;
+  padding-bottom: 15px;
 }
 
-.breadcrumb a {
-  text-decoration: none;
-}
-
-.breadcrumb a:hover {
-  color: red;
+body {
+  background-color: skyblue;
 }
