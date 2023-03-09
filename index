@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="./tea_cozy.css" type="text/css" rel="stylesheet">
+
+    <title>Class Page</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src='https://scontent-sjc3-1.xx.fbcdn.net/v/t1.18169-9/546467_10150835434890409_1021129340_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=xLtdBGEHAZgAX_qwKvT&_nc_oc=AQlnPrYRaMiuqZevlPVBPa71fl0dZXKg6snZTf8ZyjekQ6sfneaeyd-oxOA3aVUF5UHsr0on7q2jjGIuy-eOP6aC&_nc_ht=scontent-sjc3-1.xx&oh=00_AfASruqoDoiE_dkwVj5BZbZvR-nGboyTXCTdw_qALbgPbA&oe=642F4CF5' alt="class logo">
+
+        <nav>
+
+            <a href="./improved_academics.html">Academics</a>
+
+            <a href="./lunch_menu.html">Menu</a>
+
+            <a href="./schedule.html">Schedule</a>
+
+            <a href="#locations">News</a>
+
+            <a href="#locations">Field Trip</a>
+
+            <a href="#locations">Homework</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="mission">
+            <section class="text">
+                <h2>Our Mission</h2><br> 
+                <h4>Student Centered, Culturally Responsive, STEM Driven</h4>
+            </section>
+        </section>
+
+        <div id="learn-more">
+            <h2>Resource Guide</h2>
+            <h4>Learn More About Our Classroom</h4>
+
+            <div class="topics">
+                <img src="https://freesvg.org/img/variousschoolsubjectscircle.png">
+                <p>Academics</p>
+            </div>
+            <div class="topics">
+                <img src="https://img.freepik.com/premium-vector/cute-kawaii-lunch-box-menu-fried-rice-colorful-illustration_90661-287.jpg?w=2000">
+                <p>Lunch Menu</p>
+            </div>
+
+            <div class="topics">
+                <img src="https://findlayfamily-com-images.s3.amazonaws.com/wp-content/uploads/2019/08/field-trip-guide.jpg">
+                <p>Field Trip Guide</p>
+            </div>
+
+            <div class="topics">
+                <img src="https://static.vecteezy.com/system/resources/previews/010/795/408/original/bell-cartoon-icon-free-vector.jpg">
+                <p>Bell Schedule</p>
+            </div>
+
+            <div class="topics">
+                <img src="https://freesvg.org/img/1534984858.png">
+                <p>News</p>
+            </div>
+
+            <div class="topics">
+                <img src="https://img.freepik.com/free-vector/boy-doing-homework-with-books-white-background_1308-93460.jpg">
+                <p>Homework</p>
+            </div>
+    </main>
+    <footer>
+        <div id="contact-info"> 
+            <h3>Room 16 Studios</h3>
+            <p>ldoong@room16studio.com</p>
+            <p>415-650-9999</p>
+        </div>
+    </footer>
+</body>
+</html>
