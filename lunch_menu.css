@@ -4,5 +4,40 @@
      display: flex;
      margin: 0 auto;
      align-items: center;
-     padding-top: 20px;
+     padding-top: 110px;
+}
+
+* {
+    font-family: Garamond;
+    color: seashell;
+    background-color: black;   
+    opacity: 0.9;
+    text-align: center;
+
+    /*reset of browser's default values*/
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 18x;
+}
+header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    opacity: 1;
+
+}
+header a { 
+    margin: 10px;
+}
+
+header img {
+    height: 80px;
+    margin-left: 10px;
 }
